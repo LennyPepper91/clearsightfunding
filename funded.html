@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head> 
+<body class="container">
+    <header>
+        <h2>Logo</h2>
+        <img class="ham" src="/ham.svg">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="contact"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="drop-down">
+        <ul class="drop-ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="contact"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+
+        const toggleBtn = document.querySelector('.ham')
+        const toggleBtnIcon = document.querySelector('.ham')
+        const dropDownMenu = document.querySelector('.drop-down')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+        }
+
+
+    </script>
+    
+    <main class="backplate-fund">
+        
+        
+            
+       
+        
+        
+    </main>
+    
+    
+    <div class="form-wrapper">
+    <div class="form-section-fund">
+
+        
+        <form class="form-two">
+            <h4 class="form-title">Get started with your finance request</h4>
+            <label for="name">Company Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your company name" required>
+            <label for="name">How much do you want to borrow?</label>
+            <input type="number" id="number" name="number" placeholder="e.g £50,000" required>
+            <label for="name">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <button class="cta-btn-two">Get funded</button>
+          </form>
+
+          <div class="form-circle"></div>
+    </div>
+    </div>
+
+    <footer>
+        <div class="foot-wrapper">
+            <div class="nav-wrapper">
+            <h5>Navigation</h5>
+            <ul>
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+            </div>
+
+            <div class="touch-wrapper">
+            <h5>Get in touch</h5>
+            <ul>
+                <li>phone</li>
+                <li>email</li>
+                <li>address
+                </li>
+                <li>Something</li>
+
+            </ul>
+            
+        </div>
+
+
+        </div>
+    </footer>
+
+
+
+
+</body>
+</html>

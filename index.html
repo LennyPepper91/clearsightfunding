@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head> 
+<body class="container">
+    <header>
+        <h2>Logo</h2>
+        <img class="ham" src="/ham.svg">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="contact"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="drop-down">
+        <ul class="drop-ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="contact"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+
+        const toggleBtn = document.querySelector('.ham')
+        const toggleBtnIcon = document.querySelector('.ham')
+        const dropDownMenu = document.querySelector('.drop-down')
+
+        toggleBtn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+        }
+
+
+    </script>
+    
+    <main class="backplate">
+        
+        <div class="hero">
+            
+       
+        
+        <div class="content">
+            <div class="square"></div>
+            <div class="edge"></div>
+            
+            
+        <h1>Grow your business with peace of mind</h1>
+        
+        <p class="sub">Customized solutions to secure the right funding for you and your company</p>
+        <a href="/funded.html"><div class="cta-btn">Get funded</div></a>
+        </div>
+        </div>
+    </main>
+    <div class="feat-grey">
+    <div class="feature-container">
+        <div id="feat">Short and long term finance </div>
+        <div id="feat">UK based support team </div>
+        <div id="feat">Fixed rate interest </div>
+
+    </div>
+    </div>
+
+    <section class="bottom">
+        <h3>Fast track your business growth</h3>
+        <p class="art">At Clear Sight Funding, we understand that businesses of all sizes and stages require access to financing solutions that are tailored to their specific needs. That's why we offer flexible business loans that are designed to help sole traders, start-ups, and SMEs take their businesses to the next level.</p>
+
+           <p class="art"> Whether you need funds to invest in equipment, purchase inventory, expand your operations, or hire new staff, we can provide the financing solution that's right for your business. Our loans are fast and cost-effective, meaning you can get the funds you need quickly without breaking the bank.</p>
+            
+           <p class="art"> Our team of experienced professionals are dedicated to helping you navigate the loan application process from start to finish. We'll work with you to understand your unique needs and tailor a financing solution that works for your business. Our process is straightforward and hassle-free, so you can focus on what you do best – running your business.</p>
+            <img class="arrow" src="/arrow.svg">
+
+    </section>
+
+
+    <div class="middle">
+        <div class="texting">
+            <h4>Partner with a reliable and responsible lender</h4>
+            <p class="art-dark">When it comes to financing your business, you deserve a partner you can trust. At Clear Sight Funding, we believe that the loan application process should be straightforward and hassle-free, so you can focus on running your business. </p> <p class="art-dark"> We specialize in helping businesses that may not qualify for conventional funding, and we are passionate about supporting the businesses we work with. We offer a personalized approach that prioritizes your success and provides financing solutions tailored to your unique business needs. We take the time to understand your business and its financial needs, and we only offer financing solutions that are appropriate and affordable for your business. We are committed to transparency and honesty throughout the lending process, and we believe that our success is directly tied to the success of the businesses we work with.</p>
+        </div>
+        
+        <img class="image" src="temp.png" alt="whatever">
+    </div>
+    <div class="last">
+        <h4>What Clearsight Funding can do for your business</h4>
+        <p class="art-dark">At Clear Sight Funding, we've streamlined the funding process into three easy steps. First, we'll gather some information from you, such as how much you want to borrow and what you need the funds for. Second, we'll compare lenders to find the best loan option for your business. Third, once you've selected your preferred loan, we'll guide you through the approval process and help you get the funds you need to succeed. Our process is hassle-free and stress-free, and there's no obligation to use our service. Trust us to help you secure the funding you need to take your business to the next level.</p>
+
+    </div>
+    <div class="steps-wrapper">
+    <div class="steps">
+        <div class="card card-one">
+        <div class="circle"><img class="bulb" src="\investment-idea-1305706.svg"></div>
+        <div class="step-title" >Tell us more about your business</div>
+        <p class="card-para">To find the best financing options for your business, we'll need some basic information, including your company's financial details and how much funding you require. With this information, we can match you with suitable loans and lenders that meet your needs and circumstances.</p>
+        </div>
+        <div class="card card-two">
+        <div class="circle"><img class="bulb" src="\decision-1305714.svg"></div>
+        <div class="step-title">Finding the best loan and lender for you</div>
+        <p class="card-para">Our panel of lenders will compete for your business to provide the most suitable solution. An account manager will discuss your options with you and provide updates throughout the process.</p>
+        </div>
+        <div class="card card-three">
+        <div class="circle"><img class="bulb" src="\agreement-1305675.svg"></div>
+        <div class="step-title" >Hassle-free loan management</div>
+        <p class="card-para">We take care of all communication and documentation requirements once you've selected your loan. Your account manager will keep you informed and answer any questions you have, ensuring that you receive your funds as quickly as possible.</p>
+        </div>
+    </div>
+        
+
+    </div>
+
+    <div class="form-section">
+
+        
+        <form>
+            <h4 class="form-title">Get started with your finance request</h4>
+            <label for="name">Company Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your company name" required>
+            <label for="name">How much do you want to borrow?</label>
+            <input type="number" id="number" name="number" placeholder="e.g £50,000" required>
+            <label for="name">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            <button class="cta-btn-two">Get funded</button>
+          </form>
+    </div>
+
+    <footer>
+        <div class="foot-wrapper">
+            <div class="nav-wrapper">
+            <h5>Navigation</h5>
+            <ul class="footer-nav">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+            </ul>
+            </div>
+
+            <div class="touch-wrapper">
+            <h5>Get in touch</h5>
+            <ul class="footer-ul">
+                <li>phone</li>
+                <li>email</li>
+                <li>Address
+                </li>
+                <li>Something</li>
+
+            </ul>
+            
+        </div>
+
+
+        </div>
+    </footer>
+
+
+
+
+</body>
+</html>
