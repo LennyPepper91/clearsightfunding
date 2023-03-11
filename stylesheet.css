@@ -583,6 +583,11 @@ nav ul a:hover {
     padding-bottom: 10px;
   }
 
+  select {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
   .field {
     color: white;
     font-size: .8rem;
