@@ -150,6 +150,8 @@ function addCommas(input) {
   let value = input.value.replace(/[^\d]/g, "");
   // Add commas every three characters from right to left
   value = value.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  // Add a pound sign at the start of the formatted number
+  value = "£" + value;
   // Set the input field value to the formatted value
   input.value = value;
 }
