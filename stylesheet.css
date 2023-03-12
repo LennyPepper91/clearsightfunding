@@ -245,6 +245,13 @@ nav ul a:hover {
         display: block;
       }
 
+      #sub {
+        
+        grid-template-columns: 1fr;
+        
+       
+      }
+
 
   }
 
@@ -736,3 +743,37 @@ nav ul a:hover {
     list-style-type: none;
     
   }
+
+  .options-wrap {
+    max-width: 1400px;
+    margin: auto;
+
+  }
+
+  .options-sub {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.5rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .option {
+    height: 150px;
+    background-color: rgb(34, 87, 122);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .option-title {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+  }
+  
