@@ -18,7 +18,20 @@ a {
 
 h2 {
     margin: 0;
+    font-size: 1.3rem;
+    color: rgb(34, 87, 122);
     
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 
@@ -292,9 +305,7 @@ nav ul a:hover {
 
   
 
-    h2 {
-        
-    }
+    
 
     nav ul {
 
@@ -744,9 +755,31 @@ nav ul a:hover {
     
   }
 
+  .nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    
+  }
+
   .footer-nav li  {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
     
+  }
+
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+
+  .logo-foot {
+    height: 100px;
   }
 
   .options-wrap {
@@ -759,9 +792,9 @@ nav ul a:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 1.5rem;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    gap: 1rem;
+    margin-top: 25px;
+    margin-bottom: 25px;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -827,4 +860,6 @@ nav ul a:hover {
     font-size: .9rem;
     font-weight: 300;
     color: rgb(34, 87, 122);
+    max-width: 1400px;
+    margin: auto;
   }
