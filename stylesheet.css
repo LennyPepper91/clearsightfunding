@@ -74,6 +74,14 @@ header {
     
   }
 
+  .sub {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 10px;
+  }
+
+
   .ham {
     height: 40px;
     width: 40px;
@@ -219,12 +227,13 @@ nav ul a:hover {
     }
 
     h1 {
-        font-size: 3rem;
+        font-size: 2.9rem;
         line-height: 3rem;
     }
 
     .sub {
-        font-size: 1rem;
+        font-size: 1.4rem;
+        
     }
 
     .steps {
@@ -319,13 +328,7 @@ nav ul a:hover {
 
 }
 
-  .sub {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-top: 10px;
-  }
-
+ 
   .feat-grey {
     background-color: rgb(241, 238, 238);
 
@@ -468,8 +471,8 @@ nav ul a:hover {
   form {
     
     
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 65px;
     display: flex;
     flex-direction: column;
     width: 600px;
@@ -522,6 +525,7 @@ nav ul a:hover {
     justify-content: center;
     padding-left: 1rem;
     padding-right: 1rem;
+   
     
     
   }
@@ -639,7 +643,8 @@ nav ul a:hover {
     gap: 4rem;
     max-width: 1400px;
     margin: auto;
-    padding-top: 65px;
+    padding-top: 70px;
+    padding-bottom: 55px;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -762,12 +767,12 @@ nav ul a:hover {
   }
 
   .option {
-    height: 150px;
+    height: 140px;
     background-color: rgb(34, 87, 122);
     border-radius: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 
   }
 
@@ -776,4 +781,50 @@ nav ul a:hover {
     color: white;
     font-weight: 600;
   }
-  
+
+  .padlock {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 6px;
+    
+  }
+
+  .option-cage {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: .75rem;
+  }
+
+  .wheel {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 0px;
+  }
+
+  .merch {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 0px;
+  }
+
+  .invoice {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 0px;
+  }
+
+  .asset {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 0px;
+  }
+
+  .disclaimer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 300;
+    color: rgb(34, 87, 122);
+  }
