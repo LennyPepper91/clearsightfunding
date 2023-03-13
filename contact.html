@@ -59,24 +59,17 @@
 
         
         <form class="form-two" action="https://formsubmit.co/michaelwithstandley@hotmail.co.uk" method="POST">
-            <h4 class="form-title">Get started with your finance request</h4>
+            <h4 class="form-title">Get in touch with one of our expert advisors today</h4>
             
-            <label for="name">How much do you want to borrow?</label>
-            <input name="Amount" type="text" id="input" onblur="addCommas(this)" onkeydown="return isNumberKey(event)" inputmode="numeric" maxlength="12" placeholder="e.g £50,000" required>
-            <label for="name">What is your average monthly turnover?</label>
-            <input name="Turnover" type="text" id="input" onblur="addCommas(this)" onkeydown="return isNumberKey(event)" inputmode="numeric" maxlength="12" placeholder="e.g £50,000" required>
-            <label>Are you a home owner?</label>
-            <select name="homeowner" required>
-              <option value="" selected disabled>Please select</option>
-              <option value="Yes">Yes</option>
-              <option value="No">No</option>
-            </select>
+            
 
             <label for="name">Company Name</label>
             <input type="text" id="name" name="name" placeholder="Enter your company name" required>
             <label for="name">Email</label>
             <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-            <button class="cta-btn-two">Get funded</button>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"  style="resize: none;" required></textarea>
+            <button class="cta-btn-two">Contact</button>
           </form>
 
              <script>
