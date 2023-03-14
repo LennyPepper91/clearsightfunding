@@ -211,6 +211,12 @@ nav ul a:hover {
     
   }
 
+  .option-list-two {
+    display: grid;
+    gap: 1rem;
+
+  }
+
   form {
     
     
@@ -287,6 +293,10 @@ nav ul a:hover {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
+  .bulb-two {
+    height: 45px
+  }
   @media (max-width: 1000px){
     .feat  {
         background-color: aquamarine;
@@ -360,6 +370,10 @@ nav ul a:hover {
       }
 
       .option-list {
+        display: none;
+      }
+
+      .option-list-two {
         display: none;
       }
 
@@ -699,6 +713,13 @@ nav ul a:hover {
     display: flex;
     align-items: center;
     gap: 1.5rem;
+  }
+
+  .fund-option-two {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
   }
 
   .circle-two {
