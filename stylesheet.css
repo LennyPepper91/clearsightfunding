@@ -163,7 +163,7 @@ nav ul a:hover {
     display: flex;
     justify-content: center;
     
-    margin: 0;
+    margin: auto;
    
     
     
@@ -252,6 +252,40 @@ nav ul a:hover {
 
   .form-color {
     background-color: rgb(34, 87, 122);
+  }
+
+  .footer-nav li  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+ 
+
+  .footer-nav {
+    display: flex;
+    gap: 5rem;
+    
+    
+  }
+
+  .footer-nav li a:hover {
+    color: rgb(250, 131, 52);
+    
+    
+  }
+
+
+  .fund-header{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+
+  .fund-header-wrap {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   @media (max-width: 1000px){
     .feat  {
@@ -344,6 +378,13 @@ nav ul a:hover {
 
       h2 {
         font-size: 1.1rem;
+      }
+
+      .footer-nav {
+        display: flex;
+        gap: 3rem;
+        padding-left: 0px;
+        
       }
 
     
@@ -746,7 +787,7 @@ nav ul a:hover {
     padding-left: 1rem;
     padding-right: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .steps-wrapper {
@@ -863,29 +904,23 @@ nav ul a:hover {
 
   .nav-wrapper {
     display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: start;
+   justify-content: center;
+   align-items: center;
     
   }
 
-  .footer-nav li  {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    
-  }
+
 
   .footer-logo {
     display: flex;
     justify-content: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     
   }
 
   .logo-foot {
-    height: 100px;
+    height: 130px;
   }
 
   .options-wrap {
@@ -972,6 +1007,15 @@ nav ul a:hover {
 
   #message {
     height: 300px;
+  }
+
+  .copyright {
+    color: rgb(34, 87, 122);
+    display: flex;
+    justify-content: center;
+    font-size: .9rem;
+    font-weight: 300;
+    padding-bottom: 20px;
   }
 
   
