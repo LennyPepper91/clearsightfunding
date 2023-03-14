@@ -18,7 +18,7 @@ a {
 
 h2 {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: rgb(34, 87, 122);
     font-weight: 700;
     
@@ -208,7 +208,7 @@ nav ul a:hover {
   .option-list {
     display: grid;
     gap: 2rem;
-    padding-bottom: 150px;
+    
   }
 
   form {
@@ -238,6 +238,20 @@ nav ul a:hover {
 
     
    
+  }
+
+  .form-wrapper-two {
+    background-color: rgb(34, 87, 122);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+
+  }
+
+  .form-color {
+    background-color: rgb(34, 87, 122);
   }
   @media (max-width: 1000px){
     .feat  {
@@ -461,9 +475,10 @@ nav ul a:hover {
     
     
     font-weight: 300;
-    margin-top: -10px;
+    
     max-width: 1400px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
   }
@@ -474,6 +489,11 @@ nav ul a:hover {
     padding-bottom: -60px;
     padding-left: 1rem;
     padding-right: 1rem;
+    
+  }
+
+  #hack {
+    margin-bottom: 17px;
   }
 
 
@@ -552,7 +572,7 @@ nav ul a:hover {
     
     
     padding-top: 100px;
-    padding-bottom: 250px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     max-width: 600px;
@@ -609,11 +629,10 @@ nav ul a:hover {
     
     
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     
-    padding-left: 1rem;
-    padding-right: 1rem;
+    
 
   }
 
@@ -672,7 +691,9 @@ nav ul a:hover {
 
   .art {
     color: white;
-    padding-top: 10px;
+    
+    margin-top: -8px;
+    
 
   }
 
@@ -807,8 +828,8 @@ nav ul a:hover {
     height: 100%;
   }
 
-  .drop-ul li:hover {
-    background-color: rgb(250, 131, 52);
+  .drop-ul li a:hover {
+    color: rgb(250, 131, 52);
     width: 100%;
     
   }
