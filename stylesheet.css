@@ -172,6 +172,37 @@ nav ul a:hover {
     
   }
 
+  .backplate-about {
+    background-color: rgb(56, 157, 165);
+    
+    padding-top: 230px;
+    padding-bottom: 230px;
+    
+    
+   
+    
+
+  }
+
+  .about-header-wrap {
+    max-width: 1400px;
+    margin: auto;
+  }
+
+  .about-p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 1000px;
+    margin-top: 5px;
+  }
+    
+
+  
+
+
   .csf {
     color: white;
     font-weight: 600;
@@ -287,6 +318,10 @@ nav ul a:hover {
     color: white;
     font-size: 2.5rem;
     font-weight: 700;
+    max-width: 1000px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
   }
 
   .fund-header-wrap {
