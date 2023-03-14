@@ -849,7 +849,13 @@ nav ul a:hover {
     margin-top: -15px;
   }
 
+  .drop-down.fade-in {
+    height: 100%;
+    opacity: 1;
+  }
+
   .drop-down {
+    opacity: 0;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -857,9 +863,10 @@ nav ul a:hover {
     gap: 4rem;
     overflow: hidden;
     height: 0;
-    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: height 0.2s ease-out, opacity 0.2s ease-out;
   }
   .drop-down.open {
+    opacity: 1;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -880,6 +887,7 @@ nav ul a:hover {
     width: 100vw;
     margin: 0;
     padding: 0;
+  /*  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); */
     
   }
 
