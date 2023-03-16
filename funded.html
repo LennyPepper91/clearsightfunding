@@ -26,6 +26,19 @@
             </ul>
         </nav>
     </header>
+
+    <script>
+        const hamImg = document.querySelector(".ham");
+        
+        hamImg.addEventListener("click", function() {
+          if (hamImg.src.endsWith("ham.svg")) {
+            hamImg.src = "ham-closed.svg";
+          } else {
+            hamImg.src = "ham.svg";
+          }
+        });
+        </script>
+        
     <div class="drop-down">
         <ul class="drop-ul">
             <li><a href="index.html">Home</a></li>
